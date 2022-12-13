@@ -1,0 +1,634 @@
+GET http://localhost:8080/pet
+
+###
+GET http://localhost:8080/pet/6
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Beagle",
+    "rating": 4.5,
+    "sold": 10,
+    "des": "Memiliki corak dengan kombinasi 3 warna. Ramah, sangat aktif, gesit, setia, dan pintar.",
+    "price": "Rp800.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Cavalier King Charles Spaniel",
+    "rating": 5.0,
+    "sold": 6,
+    "des": "Memiliki corak Blenheim (merah kastanye dan putih). Periang, lembut, dan tak kenal takut."
+    "price": "Rp134.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Pomeranian",
+    "rating": 4.5,
+    "sold": 15,
+    "des": "Memiliki corak warna cream dan putih. Sangat lincah, cerdas, dan imut.",
+    "price": "Rp900.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Poodle",
+    "rating": 5.0,
+    "sold": 18,
+    "des": "Memiliki corak warna coklat. Pandai, ceria, selalu waspada, dan memiliki insting yang tajam."
+    "price": "Rp800.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Chihuahua",
+    "rating": 4.0,
+    "sold": 10,
+    "des": "Sangat lincah, agresif, berani, cepat, percaya diri, dan berbakti."
+    "price": "Rp5.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Shih Tzu",
+    "rating": 5.0,
+    "sold": 14,
+    "des": "Anjing imut hasil peranakan dari China. Ramah, senang bermain, mudah bergaul, dan pintar."
+    "price": "Rp2.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Maltese",
+    "rating": 5.0,
+    "sold": 16,
+    "des": "Memiliki corak warna putih. Aktif, suka bermain, cerdas, dan setia."
+    "price": "Rp2.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Anggora",
+    "rating": 5.0,
+    "sold": 18,
+    "des": "Suka bermain, sangat aktif, riuh, dan suka mencari perhatian pemiliknya.",
+    "price": "Rp650.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Singapura",
+    "rating": 4.0,
+    "sold": 6,
+    "des": "Periang, selalu ingin tahu, senang bermain, tidak akan merusak barang di sekitarnya, dan interaktif.",
+    "price": "Rp18.500.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Russian Blue",
+    "rating": 4.5,
+    "sold": 12,
+    "des": "Cerdas dan lucu, tetapi cenderung pemalu di sekitar orang asing.",
+    "price": "Rp2.500.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Balinese",
+    "rating": 5.0,
+    "sold": 15,
+    "des": "Sangat aktif, menyenangkan, dan suka bermain dengan pemiliknya.",
+    "price": "Rp4.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Siam",
+    "rating": 4.5,
+    "sold": 10,
+    "des": "Memiliki rasa ingin tahu yang tinggi, cerdas, dan lincah.",
+    "price": "Rp17.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Maine Coon",
+    "rating": 4.0,
+    "sold": 6,
+    "des": "Memiliki sifat yang ramah dan mudah beradaptasi.",
+    "price": "Rp15.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Birman",
+    "rating": 4.5,
+    "sold": 15,
+    "des": "Memiliki suara yang lembut, pintar, aktif, lincah, dan suka diperhatikan.",
+    "price": "Rp5.400.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Nuri",
+    "rating": 4.0,
+    "sold": 18,
+    "des": "Memiliki bulu berwarna merah dan suara yang merdu, serta mampu menirukan suara manusia.",
+    "price": "Rp800.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Kakatua",
+    "rating": 4.5,
+    "sold": 14,
+    "des": "Penuh kasih sayang, lucu, dan jail.",
+    "price": "Rp3.800.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Burung Hantu",
+    "rating": 5.0,
+    "sold": 20,
+    "des": "Pendengar yang baik, memiliki penglihatan yang tajam, pendiam, sederhana, dan bijak.",
+    "price": "Rp500.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Beo",
+    "rating": 4.5,
+    "sold": 16,
+    "des": "Ramah, lucu, suka berbicara, dan suka bernyanyi mengikuti suara yang didengar.",
+    "price": "Rp1.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Merpati",
+    "rating": 4.5,
+    "sold": 10,
+    "des": "Dapat mengirim surat tanpa tersesat, setia kepada pasangannya, dan tidak dapat berkhianat.",
+    "price": "Rp30.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Kesturi",
+    "rating": 4.0,
+    "sold": 6,
+    "des": "Cukup aktif, sering terlihat bertengkar, dan bermain dengan suara yang cukup berisik.",
+    "price": "Rp550.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Kutilang",
+    "rating": 4.5,
+    "sold": 15,
+    "des": "Suka hidup berkelompok, sangat bersahabat, dan mudah beradaptasi.",
+    "price": "Rp100.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Kelinci Holland Lop",
+    "rating": 5.0,
+    "sold": 20,
+    "des": "Sangat enerjik, aktif, dan bersahabat, namun sulit digendong dan dipegang.",
+    "price": "Rp300.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Landak Mini Salt and Pepper",
+    "rating": 3.0,
+    "sold": 5,
+    "des": "Jinak, pemalu, dan penakut. Durinya tidak berbahaya dan aman.",
+    "price": "Rp220.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "American Guinea Pig",
+    "rating": 4.5,
+    "sold": 17,
+    "des": "Ramah dan senang bermain dengan anak-anak.",
+    "price": "Rp330.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Tupai Merah",
+    "rating": 4.0,
+     "sold": 12,
+    "des": "Berani, agresif, suka beraktifitas, dan pandai.",
+    "price": "Rp175.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Guinea Pig Peruvian",
+    "rating": 4.0,
+    "sold": 12,
+    "des": "Ramah, suka bersosialisasi, dan jarang menggigit.",
+    "price": "Rp750.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Hamster Eropa",
+    "rating": 4.5,
+    "sold": 9,
+    "des": "Hamster kecil dan imut yang berasal dari Eropa. Lebih besar dari hamster syrian dan campbel",
+    "price": "Rp10.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "name": "Hamster Eropa",
+    "rating": 4.5,
+    "sold": 7,
+    "des": "Pemalu dan mudah gelisah tetapi umumnya ramah.",
+    "price": "Rp1.000.000,00"
+}
+
+###
+GET http://localhost:8080/product
+
+###
+GET http://localhost:8080/product/6
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "A-Frame Rumah Anjing",
+    "rating": 4.5,
+    "sold": 12,
+    "des": "Rumah anjing sederhana untuk hewan peliharaan anda dengan berbahan dasar kayu.",
+    "price": "Rp543.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Pedigree",
+    "rating": 5.0,
+    "sold": 24,
+    "des": "Mengandung nutrisi yang baik untuk membangun sistem kekebalan tubuh.",
+    "price": "Rp43.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Good Dog",
+    "rating": 4.5,
+    "sold": 17,
+    "des": "Makanan anjing super premium yang mengandung asam amino lemak, vitamin, dan mineral.",
+    "price": "Rp67.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Happy Dog",
+    "rating": 5.0,
+    "sold": 20,
+    "des": "Makanan kering dengan daging domba bergizi, nasi yang mudah dicerna, dan lemak yang rendah.",
+    "price": "Rp70.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Alpo",
+    "rating": 4.5,
+    "sold": 14,
+    "des": "Memiliki protein yang sangat berkualitas dimana terdapat 23 vitamin di dalamnya.",
+    "price": "Rp5.000.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Jerhigh",
+    "rating": 4.0,
+    "sold": 10,
+    "des": "Terbuat dari daging ayam berkualitas yang sama seperti makanan manusia.",
+    "price": "Rp2.000.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Kandang Kucing Mini Portabel",
+    "rating": 5.0,
+    "sold": 21,
+    "des": "Kandang kucing mini portabel yang praktis dibawa ke mana saja yang terbuat dari plastik.",
+    "price": "Rp85.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Whiskas Adult Cat Food Tuna",
+    "rating": 5.0,
+    "sold": 25,
+    "des": "Mengandung serat untuk pencernaan, kalsium, omega 6, vitamin, taurine, dan antioksida.",
+    "price": "Rp70.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Friskies Adult Seafood Sensations",
+    "rating": 4.5,
+    "sold": 18,
+    "des": "Makanan kucing berkualitas yang mengandung nutrisi lengkap dan seimbang dari Purina.",
+    "price": "Rp56.500,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Happy Cat Minkas Perfect Mix",
+    "rating": 5.0,
+    "sold": 15,
+    "des": "Mengandung protein unggas, daging domba, dan ikan, yang kaya akan omega 3 dan omega 6.",
+    "price": "Rp110.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Blackwood",
+    "rating": 4.0,
+    "sold": 10,
+    "des": "Makanan kucing super-premium yang mengandung protein, lemak, dan serat.",
+    "price": "Rp5.000.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Bolt",
+    "rating": 4.5,
+    "sold": 14,
+    "des": "Makanan kucing ini memiliki varian rasa tuna dan bentuk makanan kibble yang menyerupai ikan.",
+    "price": "Rp2.000.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Sangkar Burung Putih",
+    "rating": 5.0,
+    "sold": 12,
+    "des": "Sangkar burung elegan berwarna putih. Berbahan besi dengan diameter 22 cm dan tinggi 25 cm.",
+    "price": "Rp125.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Vitakraft",
+    "rating": 5.0,
+    "sold": 22,
+    "des": "Dapat mencegah gejala kekurangan gizi dan membantu mengoptimalkan perawatan.",
+    "price": "Rp80.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Pakan Pleci Nutri Booster",
+    "rating": 4.0,
+    "sold": 15,
+    "des": "Mengandung vitamin yang tinggi, nutrisi, protein, dan karbohidrat.",
+    "price": "Rp35.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Premia Spring",
+    "rating": 4.5,
+    "sold": 12,
+    "des": "Mengandung nutrisi makro, vitamin, dan mineral yang lengkap untuk burung peliharaan anda.",
+    "price": "Rp80.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "BruitBlend Flavor with Natural Flavors",
+    "rating": 4.0,
+    "des": "Setiap butir pelet ini mengandung nutrisi yang dibutuhkan oleh burung.",
+    "sold": 10,
+    "price": "Rp195.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Health & Vitality Blend Parrot Diet",
+    "rating": 4.5,
+    "sold": 14,
+    "des": "Dirancang agar bisa memenuhi kebutuhan nutrisi burung parkit tanpa membuatnya gemuk.",
+    "price": "Rp129.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "nama": "Rumah Hamster Pink",
+    "rating": 5.0,
+    "sold": 18,
+    "des": "Rumah tempat bermain dan beristirahat untuk hamster kesayangan anda.",
+    "price": "Rp120.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "SmartHeart Rabbit Food",
+    "rating": 5.0,
+    "sold": 20,
+    "des": "Makanan lengkap untuk kelinci yang diperkaya dengan sayuran dan sereal.",
+    "price": "Rp40.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Hedgehog Food",
+    "rating": 4.5,
+    "sold": 12,
+    "des": "Makanan landak yang mengandung omega 3, 6, 9, protein, vitamin, dan kalium.",
+    "price": "Rp27.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Vitakraft Guinea Pig",
+    "rating": 4.5,
+    "sold": 15,
+    "des": "Mengandung vitamin yang diperkaya oleh extra dosis vitamin C yang penting untuk kesehatan.",
+    "price": "Rp40.000,00"
+}
+   
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "name": "Kandang Kelinci Minimalis",
+    "rating": 5.0,
+    "sold": 18,
+    "des": "Terbuat dari kayu dan di cat menggunakan cat berkualitas yang kuat, awet, dan tahan lama.",
+    "price": "Rp2.500.000,00"
+}
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "nama": "Rumah Landak Mini",
+    "rating": 5.0,
+    "sold": 17,
+    "des": "Rumah landak khusus landak mini yang terbuat dari triplek meranti putih dengan ukuran 23x15x17",
+    "price": "Rp125.000,00"
+}
+
