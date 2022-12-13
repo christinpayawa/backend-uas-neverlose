@@ -1,6 +1,6 @@
-import Kategori from '../model/KategoriModel.js';
+import KategoriPet from '../model/PetKategoriModel.js';
 
-export const getKategori = async (req, res) => {
+export const getKategoriPet = async (req, res) => {
     try {
         const response = await Kategori.findAll();
         res.status(200).json(response);
@@ -9,7 +9,7 @@ export const getKategori = async (req, res) => {
     }
 }
 
-export const getKategoriById = async (req, res) => {
+export const getKategoriPetById = async (req, res) => {
     try {
         const response = await Product.findOne({
             where: {
@@ -22,18 +22,18 @@ export const getKategoriById = async (req, res) => {
     }
 }
 
-export const createKategori = async (req, res) => {
+export const createKategoriPet = async (req, res) => {
     try {
-        await Product.create(req.body);
+        await Pet.create(req.body);
         res.status(201).json({ msg: 'Kategori Created'})
     } catch (error) {
         console.log(error.messagge);
     }
 }
 
-export const updateKategori = async (req, res) => {
+export const updateKategoriPet = async (req, res) => {
     try {
-        await Kategori.update(req.body, {
+        await KategoriPet.update(req.body, {
             where: {
                 id: req.params.id,
             },
@@ -44,9 +44,9 @@ export const updateKategori = async (req, res) => {
     }
 }
 
-export const deleteKategori = async (req, res) => {
+export const deleteKategoriPet = async (req, res) => {
     try {
-        await Product.destroy({
+        await Pet.destroy({
             where: {
                 id: req.params.id,
             },

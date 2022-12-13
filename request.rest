@@ -1,7 +1,7 @@
 GET http://localhost:8080/pet
 
 ###
-GET http://localhost:8080/pet/6
+GET http://localhost:8080/pet/5
 
 ###
 POST http://localhost:8080/pet
@@ -343,7 +343,7 @@ Content-Type: application/json
 GET http://localhost:8080/product
 
 ###
-GET http://localhost:8080/product/6
+GET http://localhost:8080/product/5
 
 ###
 POST http://localhost:8080/product
